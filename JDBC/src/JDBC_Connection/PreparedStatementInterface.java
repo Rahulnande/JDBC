@@ -63,6 +63,8 @@ public class PreparedStatementInterface {
 			
 			System.out.println(id+" "+name);
 		}
+		
+		conn.close();
 	}
 
 }
